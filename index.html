@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/styles.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="#" class="header__list">
+                <img src="/src/images/customers-menu.png" alt="Customers" class="header__img">
+            </a>
+            <a href="#" class="header__list">
+                <img src="/src/images/notice.png" alt="Notice" class="header__img">
+            </a>
+            <a href="#" class="header__list">
+                <img src="/src/images/avatar.png" alt="Profile image" class="avatar">
+            </a>
+        </header>
+        <div class="menu wrapper__menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-dashboard">
+                        Dashboard
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-customers">
+                        Customers
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-products">
+                        Products
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-account">
+                        Account
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-settings">
+                        Settings
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-login">
+                        Login
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-register">
+                        Register
+                    </button>
+                </li>
+                <li class="menu__item">
+                    <button class="menu__item-button" id="menu__item-error">
+                        Error
+                    </button>
+                </li>
+            </ul>
+            <hr class="menu__divider">
+            <div class="menu__more-features">
+                <h4 class="menu__text-question">Need more features?</h4>
+                <p class="menu__text">Check out our Pro solution.</p>
+                <button class="menu__button-buy-pro">
+                    <div class="menu__button-img-txt-cont">
+                        <p>Buy Pro</p>
+                        <img src="/src/images/buy-pro.png" alt="Buy Pro" class="menu__button-img">
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="customers">
+            <div class="customers__header">
+                <h3 class="customers__header-txt">Customers</h3>
+                <div class="customers__control control-panel">
+                    <a href="#">
+                        <div class="control-panel__img-cont">
+                            <img class="control-panel__img" src="/src/images/import.png" alt="Import">
+                            </img>
+                            <p>Import</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="control-panel__img-cont">
+                            <img class="control-panel__img" src="/src/images/export.png" alt="Export">
+                            </img>
+                            <p>Export</p>
+                        </div>
+                    </a>
+                    <button class="control-panel__button">
+                        Add Customers
+                    </button>
+                </div>
+            </div>
+            <div class="search customers__search">
+                <span class="search__form-placeholder">Search customer</span>
+                <input class="search__form" type="search">
+            </div>
+            <div class="orders customers__orders">
+                <table class="orders__table">
+                    <caption class="orders__table-name">Latest Orders</caption>
+                    <tr>
+                        <th class="orders__table-headers">name</th>
+                        <th class="orders__table-headers">email</th>
+                        <th class="orders__table-headers">location</th>
+                        <th class="orders__table-headers">phone</th>
+                        <th class="orders__table-headers">registration date</th>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-cell">
+                            <div class="orders__customer">
+                                <img src="/src/images/avatar.png" alt="Customer" class="avatar orders__customer-img">
+                                <p>
+                                    Ekaterina Tankova
+                                </p>
+                            </div>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-email">
+                                ekaterina.tankova@devias.io
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-location">
+                                Parkersburg, West Virginia, USA
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-phone">
+                                304-428-3097
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-reg-date">
+                                12/04/2019
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-cell">
+                            <div class="orders__customer">
+                                <img src="/src/images/avatar.png" alt="Customer" class="avatar orders__customer-img">
+                                <p>
+                                    Ekaterina Tankova
+                                </p>
+                            </div>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-email">
+                                ekaterina.tankova@devias.io
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-location">
+                                Parkersburg, West Virginia, USA
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-phone">
+                                304-428-3097
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-reg-date">
+                                12/04/2019
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-cell">
+                            <div class="orders__customer">
+                                <img src="/src/images/avatar.png" alt="Customer" class="avatar orders__customer-img">
+                                <p>
+                                    Ekaterina Tankova
+                                </p>
+                            </div>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-email">
+                                ekaterina.tankova@devias.io
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-location">
+                                Parkersburg, West Virginia, USA
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-phone">
+                                304-428-3097
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-reg-date">
+                                12/04/2019
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-cell">
+                            <div class="orders__customer">
+                                <img src="/src/images/avatar.png" alt="Customer" class="avatar orders__customer-img">
+                                <p>
+                                    Ekaterina Tankova
+                                </p>
+                            </div>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-email">
+                                ekaterina.tankova@devias.io
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-location">
+                                Parkersburg, West Virginia, USA
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-phone">
+                                304-428-3097
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-reg-date">
+                                12/04/2019
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-cell">
+                            <div class="orders__customer">
+                                <img src="/src/images/avatar.png" alt="Customer" class="avatar orders__customer-img">
+                                <p>
+                                    Ekaterina Tankova
+                                </p>
+                            </div>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-email">
+                                ekaterina.tankova@devias.io
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-location">
+                                Parkersburg, West Virginia, USA
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-phone">
+                                304-428-3097
+                            </p>
+                        </td>
+                        <td class="orders__table-cell">
+                            <p class="orders__customer-reg-date">
+                                12/04/2019
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="orders__table-footer" colspan="5">
+                            <div class="orders__table-footer-cont">
+                                <p class="orders__rows-numbers">Rows per page:</p>
+                                <select class="orders__rows-numbers-change" name="numbers">
+                                    <option selected="selected" value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                </select>
+                                <p class="orders__visual-orders-amount">1-5 of 13</p>
+                                <a href="#">
+                                    <img src="/src/images/arrow-left.png" alt="Back" class="orders__nav-arrows">
+                                </a>
+                                <a href="#">
+                                    <img src="/src/images/arrow-right.png" alt="Forward" class="orders__nav-arrows">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer class="footer wrapper__footer">
+            <p class="footer__header">© Devias Io. 2021</p>
+            <p class="footer__text-info">Material Kit Free version. For more features and components feel free to check
+                out
+                the
+                <a href="#" class="footer__link">
+                    pro version
+                </a>
+                .
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
